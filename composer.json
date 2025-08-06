@@ -1,0 +1,19 @@
+{
+    "name": "miniframework/app",
+    "description": "Mini framework MVC PHP PSR-4",
+    "require": {
+        "php": "^8.0"
+    },
+    "authors": [
+        {
+            "name": "Estudiante",
+            "email": "estudiante@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    }
+}
